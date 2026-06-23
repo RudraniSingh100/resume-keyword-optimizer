@@ -76,30 +76,3 @@ match score = found job keywords / total job keywords * 100
 ```
 
 Suggestions are generated from the highest-priority missing keywords.
-
-## Deploying to Vercel
-
-1. Push this project to a GitHub repository.
-2. Go to [Vercel](https://vercel.com/new).
-3. Import the GitHub repository.
-4. Keep the default framework preset as `Next.js`.
-5. Use the default build command:
-
-```bash
-npm run build
-```
-
-6. Use the default output settings.
-7. Click `Deploy`.
-
-The app does not require environment variables, paid services, serverless databases, or external APIs.
-
-## Suggested Git Commit Messages
-
-```text
-Initial Next.js app scaffold
-Add resume keyword analysis engine
-Build responsive optimizer interface
-Add footer branding and contact details
-Document Vercel deployment workflow
-```
